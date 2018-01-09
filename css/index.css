@@ -1,0 +1,231 @@
+*{
+    padding:0;
+    margin:0;}
+ul{list-style: none;}
+/*header start*/
+header {
+    width: 100%;
+    height: 189px;
+    background: url("../image/bg-header.png") no-repeat center/cover; }
+/* header end*/
+/*nav start*/
+nav{
+    width:100%;
+    background: deepskyblue;
+    }
+nav .nav {
+    width: 80%;
+    height: 45px;
+    margin: auto;
+}
+nav .nav li{
+    float: left;
+    padding:10px 22px 0;
+    font-size:16px;
+    color:#fff;
+    cursor: pointer;
+}
+/*nav end*/
+/*content start*/
+.content{
+    position: relative;
+    /*top: -18px;*/
+    width:100%;
+    overflow: hidden;
+}
+.content .swiper-container{
+     position: relative;
+    margin:auto;
+    width: 80%;
+    height: 350px;
+}
+.content .swiper-container .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.content .introduce{
+    z-index: 99;
+    position:absolute;
+    top:30px;
+    left:10%;
+    height: 200px;
+    width: 320px;
+}
+.content .introduce p{
+    padding:10px;
+    font-size: 12px;
+    text-indent: 20px;
+    color:#fff;
+    background: rgba(100,155,220,.3);
+}
+.content .introduce p:nth-child(1){
+    margin-bottom:20px;
+    font-size:16px;
+    font-weight:bold;
+}
+.content .introduce p a{
+    float: right;
+}
+.content .base{
+    position: relative;
+    padding-top:40px;
+    border-top: 1px dotted coral;
+}
+.content .c-advise{
+    width:80%;
+    height: 240px;
+    margin:auto;
+    padding-top:50px;
+}
+.c-advise .advise {
+    float: left;
+    width:60%;
+}
+.content  .tital{
+    width:100px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    box-shadow: 0 0 5px 2px skyblue;
+    border-radius: 5px;
+    color: #fff;
+    background: blue;
+    font-size:20px;
+}
+ .advise .tital{
+     position: absolute;
+     top: -15px;
+     left:0;
+ }
+ .advise .tital-r{
+    position: absolute;
+    width:70px;
+    height:30px;
+    top:-15px;
+    right:0;
+    color: orangered;
+    text-align: right;
+    line-height:30px;
+    background: #ddd;
+}
+.c-advise .advise img{
+    width: 235px;
+    height: 160px;
+}
+.c-advise .advise .a-left{
+    width:36%;
+     padding:5px;
+    border:1px solid #ccc;
+}
+.c-advise .advise .a-right{
+     width:55%;
+}
+.c-advise .advise .a-right li{
+    margin:7px 0;
+    cursor: pointer;
+}
+.c-advise .advise .a-right span{
+     float: right;
+ }
+.c-advise .c-vidio{
+    width:30%;
+
+}
+.c-advise .c-vidio .tital{
+    position: absolute;
+    top: -15px;
+    left:0;
+}
+.content .lab {
+    position: relative;
+    width: 80%;
+    margin: 30px auto 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #444;
+}
+.lab .advise{
+    width:100%;
+    height:240px;
+}
+
+.lab ul li:hover p{
+    display: block;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+}
+.lab ul li p{
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height: 150px;
+    background: #ddd;
+}
+
+.comp{
+    width:80%;
+    margin:auto;
+    margin-bottom:20px;}
+.comp span{
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    color: #fff;
+    background: deeppink;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.comp .on{
+    background: deepskyblue;
+}
+.comp .compy{
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.comp ul li{
+    float: left;
+    width:15%;
+    margin:8px;
+}
+.comp ul li img {
+    width:100%;
+    height: 160px;
+
+}
+/*content end*/
+/*footer start*/
+footer{
+    width:100%;
+    height: 124px;
+    background:url("../image/bg-footer.png")no-repeat center/cover;
+    color:#fff;
+    font-size:14px;
+}
+.foot-top{
+    width: 80%;
+    margin:auto;
+    padding:10px 0;
+    border-bottom:1px solid #222;}
+.foot-top ul li{
+    padding: 5px;
+}
+.foot-top ul:nth-child(1) a{
+    display: inline-block;
+    padding-left: 10px;
+    font-weight:bold;
+}
+.foot-last{
+    width: 80%;
+    margin:auto;
+    padding:10px 0;
+}
+
+/*footer end*/
+
+
